@@ -163,3 +163,6 @@ sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap (step 6 to make the i
 <pre>
   bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap</b>
   </pre>
+
+
+  ![alt tag](https://github.com/Telmat2015/wireshark/blob/master/image/Screenshot%20from%202016-09-27%2001-19-02.png)
