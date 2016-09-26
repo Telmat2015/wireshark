@@ -153,3 +153,13 @@ sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap (step 6 to make the i
 <pre>
   bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo chgrp wireshark /usr/bin/dumpcap</b>
   </pre>
+  
+<b>5.  sudo chmod 755 /usr/bin/dumpcap</b>
+<pre>
+  bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo chmod 755 /usr/bin/dumpcap</b>
+  </pre>
+
+<b>6.  sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap</b>
+<pre>
+  bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap</b>
+  </pre>
