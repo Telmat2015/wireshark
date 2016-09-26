@@ -137,3 +137,19 @@ sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap (step 6 to make the i
   Processing triggers for libc-bin (2.23-0ubuntu3) ...
 
   </pre>
+
+<b>2.  sudo groupadd wireshark</b>
+  <pre>
+  bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo groupadd wireshark</b>
+  groupadd: group 'wireshark' already exists
+  </pre>
+  
+ <b>3.  sudo usermod -a -G wireshark $USER</b>
+<pre>
+  bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo usermod -a -G wireshark $USER</b>
+  </pre>
+  
+<b>4.  sudo chgrp wireshark /usr/bin/dumpcap</b>
+<pre>
+  bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo chgrp wireshark /usr/bin/dumpcap</b>
+  </pre>
